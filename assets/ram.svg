@@ -1,0 +1,46 @@
+<!-- ram.svg -->
+<svg viewBox="0 0 160 20" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Placa de circuito (verde) -->
+  <rect x="0.5" y="0.5" width="159" height="19" fill="#206b20" stroke="#2f8f2f" stroke-width="1"></rect>
+
+  <!-- Chips de memória (pretos) -->
+  <g fill="#1a1a1a" stroke="#444" stroke-width="0.6">
+    <rect x="12" y="3" width="18" height="12" rx="1.5"></rect>
+    <rect x="36" y="3" width="18" height="12" rx="1.5"></rect>
+    <rect x="60" y="3" width="18" height="12" rx="1.5"></rect>
+    <rect x="84" y="3" width="18" height="12" rx="1.5"></rect>
+    <rect x="108" y="3" width="18" height="12" rx="1.5"></rect>
+    <rect x="132" y="3" width="18" height="12" rx="1.5"></rect>
+  </g>
+
+  <!-- Pinos dourados -->
+  <g fill="#c49e00">
+    <!-- grupo 1 -->
+    <rect x="4" y="17" width="4" height="3"></rect>
+    <rect x="10" y="17" width="4" height="3"></rect>
+    <rect x="16" y="17" width="4" height="3"></rect>
+    <rect x="22" y="17" width="4" height="3"></rect>
+    <rect x="28" y="17" width="4" height="3"></rect>
+    <rect x="34" y="17" width="4" height="3"></rect>
+    <!-- entalhe central (espaço vazio) -->
+    <!-- grupo 2 -->
+    <rect x="62" y="17" width="4" height="3"></rect>
+    <rect x="68" y="17" width="4" height="3"></rect>
+    <rect x="74" y="17" width="4" height="3"></rect>
+    <rect x="80" y="17" width="4" height="3"></rect>
+    <rect x="86" y="17" width="4" height="3"></rect>
+    <rect x="92" y="17" width="4" height="3"></rect>
+    <!-- entalhe -->
+    <!-- grupo 3 -->
+    <rect x="120" y="17" width="4" height="3"></rect>
+    <rect x="126" y="17" width="4" height="3"></rect>
+    <rect x="132" y="17" width="4" height="3"></rect>
+    <rect x="138" y="17" width="4" height="3"></rect>
+    <rect x="144" y="17" width="4" height="3"></rect>
+    <rect x="150" y="17" width="4" height="3"></rect>
+  </g>
+
+  <!-- Entalhe central (corte) -->
+  <rect x="98" y="15" width="20" height="5" fill="#206b20"></rect>
+</svg>

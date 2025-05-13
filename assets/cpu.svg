@@ -1,0 +1,38 @@
+<!-- cpu.svg -->
+<svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Moldura externa (corpo do chip) -->
+  <rect x="2" y="2" width="56" height="56" rx="6" ry="6" fill="#1e1e1e" stroke="#5e5e5e" stroke-width="2"></rect>
+
+  <!-- Borda metálica (IHS) -->
+  <rect x="10" y="10" width="40" height="40" rx="4" ry="4" fill="#a7a7a7" stroke="#d0d0d0" stroke-width="1.5"></rect>
+
+  <!-- Dado da CPU -->
+  <rect x="21" y="21" width="18" height="18" fill="#2f8fd8" stroke="#5fb3ff" stroke-width="1"></rect>
+
+  <!-- Texto Intel -->
+  <text x="30" y="54" font-family="sans-serif" font-size="8" text-anchor="middle" fill="#5fb3ff" letter-spacing="0.5">INTEL</text>
+
+  <!-- Pinos (laterais) -->
+  <g fill="#c49e00">
+    <!-- topo -->
+    <rect x="12" y="0" width="4" height="4"></rect>
+    <rect x="22" y="0" width="4" height="4"></rect>
+    <rect x="32" y="0" width="4" height="4"></rect>
+    <rect x="42" y="0" width="4" height="4"></rect>
+    <!-- base -->
+    <rect x="12" y="56" width="4" height="4"></rect>
+    <rect x="22" y="56" width="4" height="4"></rect>
+    <rect x="32" y="56" width="4" height="4"></rect>
+    <rect x="42" y="56" width="4" height="4"></rect>
+    <!-- esquerda -->
+    <rect x="0" y="12" width="4" height="4"></rect>
+    <rect x="0" y="22" width="4" height="4"></rect>
+    <rect x="0" y="32" width="4" height="4"></rect>
+    <rect x="0" y="42" width="4" height="4"></rect>
+    <!-- direita -->
+    <rect x="56" y="12" width="4" height="4"></rect>
+    <rect x="56" y="22" width="4" height="4"></rect>
+    <rect x="56" y="32" width="4" height="4"></rect>
+    <rect x="56" y="42" width="4" height="4"></rect>
+  </g>
+</svg>

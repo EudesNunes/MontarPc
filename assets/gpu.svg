@@ -1,0 +1,37 @@
+<!-- gpu.svg -->
+<svg viewBox="0 0 180 50" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- PCB / carcaça da placa -->
+  <rect x="1" y="1" width="178" height="48" rx="6" ry="6" fill="#2b2b2b" stroke="#555" stroke-width="2"></rect>
+
+  <!-- Área da interface PCIe (conector dourado) -->
+  <rect x="5" y="42" width="60" height="6" fill="#c49e00"></rect>
+
+  <!-- Ventoinhas -->
+  <g fill="#1a1a1a" stroke="#666" stroke-width="2">
+    <!-- Fan 1 -->
+    <circle cx="55" cy="25" r="16"></circle>
+    <!-- Fan 2 -->
+    <circle cx="125" cy="25" r="16"></circle>
+  </g>
+
+  <!-- Lâminas das ventoinhas (estilizadas) -->
+  <g fill="#2f2f2f">
+    <!-- Fan 1 blades -->
+    <path d="M55 9 L59 17 L55 25 L51 17 Z"></path>
+    <path d="M42 25 L50 29 L58 25 L50 21 Z"></path>
+    <path d="M55 41 L51 33 L55 25 L59 33 Z"></path>
+    <path d="M68 25 L60 21 L52 25 L60 29 Z"></path>
+
+    <!-- Fan 2 blades -->
+    <g transform="translate(70,0)">
+      <path d="M55 9 L59 17 L55 25 L51 17 Z"></path>
+      <path d="M42 25 L50 29 L58 25 L50 21 Z"></path>
+      <path d="M55 41 L51 33 L55 25 L59 33 Z"></path>
+      <path d="M68 25 L60 21 L52 25 L60 29 Z"></path>
+    </g>
+  </g>
+
+  <!-- Logo RTX -->
+  <text x="174" y="46" font-family="Helvetica,Arial,sans-serif" font-size="12" text-anchor="end" fill="#76b900" font-weight="bold">RTX</text>
+</svg>
